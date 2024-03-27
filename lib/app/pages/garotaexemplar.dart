@@ -9,16 +9,25 @@ class Garotaexemplar extends StatelessWidget{
       body: ListView(
         children: <Widget>[
           ListTile(
-            title: Text('Garota Exemplar'),
+            title: Text('Garota Exemplar', 
+            textAlign: TextAlign.center,
+            style: TextStyle(
+              fontWeight: FontWeight.bold,
+              fontSize: 20,
+              ),),
             subtitle: Container(
               padding: EdgeInsets.all(8.0),
               child: Column(
                 children: [
                 Image.asset(
-                  '...assests/garotaexemplar.jpg'
+                  '../assets/garotaexemplar.jpg'
                 ),
                 SizedBox(height: 5.0),
-                Text('O livro começa no dia do quinto aniversário de casamento de Nick e Amy Dunne, quando a linda e inteligente esposa de Nick desaparece da casa deles às margens do rio Mississippi. Sinais indicam que se trata de um sequestro violento e Nick rapidamente se torna o principal suspeito. Sob pressão da polícia, da mídia e dos ferozmente amorosos pais de Amy, Nick desfia uma série interminável de mentiras, meias verdades e comportamento inapropriado.'),
+                Text('O livro começa no dia do quinto aniversário de casamento de Nick e Amy Dunne, quando a linda e inteligente esposa de Nick desaparece da casa deles às margens do rio Mississippi. Sinais indicam que se trata de um sequestro violento e Nick rapidamente se torna o principal suspeito. Sob pressão da polícia, da mídia e dos ferozmente amorosos pais de Amy, Nick desfia uma série interminável de mentiras, meias verdades e comportamento inapropriado.', 
+            textAlign: TextAlign.justify,
+            style: TextStyle(
+              fontSize: 16,
+            ),),
                 ],
                 ),
             ),
