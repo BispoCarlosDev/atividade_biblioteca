@@ -20,7 +20,7 @@ class Caixadepassaros extends StatelessWidget{
               child: Column(
                 children: [
                 Image.asset(
-                  '../assets/caixadepassaros.jpg'
+                  'assets/caixadepassaros.jpg'
                 ),
                 SizedBox(height: 5.0),
                 Text('Após quatro anos trancados, Malorie e as crianças fogem da casa em um barco a remo na esperança de encontrar um lugar distante do surto que matou todos ao seu redor. De olhos tapados, os três encaram uma viagem assustadora rumo ao desconhecido.', 

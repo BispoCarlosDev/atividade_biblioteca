@@ -20,7 +20,7 @@ class Acasadosmuitoscaminhos extends StatelessWidget{
               child: Column(
                 children: [
                 Image.asset(
-                  '../assets/acasadosmuitoscaminhos.jpg'
+                  'assets/acasadosmuitoscaminhos.jpg'
                 ),
                 SizedBox(height: 5.0),
                 Text('Charmain vive uma confortável e tranquila rotina – não tira os olhos dos livros não tem tarefas domésticas e, principalmente, é muito mimada pelos pais... Até que tia Semprônia lhe pede que cuide da casa do seu tio-avô, o Mago Norland, durante sua ausência. Ela imagina que a tarefa, no fim, valerá a pena – afinal, esta é sua única chance de sair de casa e tentar trabalhar na Biblioteca Real, seu maior desejo. Mas as tarefas domésticas das quais Charmain deve se ocupar são, naturalmente, quase todas mágicas. E, embora precise arrumar a bagunça que o tio-avô deixou, ela não entende absolutamente nada sobre magia!', 

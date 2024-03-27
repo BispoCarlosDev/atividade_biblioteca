@@ -581,12 +581,12 @@ class Home extends StatelessWidget {
           bottomNavigationBar: BottomNavigationBar( // Criando um BottomNavigation no rodapé da página
             items: const [
               BottomNavigationBarItem(
-                icon: Icon(Icons.person),
-                label: 'Pessoa',
+                icon: Icon(Icons.library_books),
+                label: 'Biblioteca',
               ),
               BottomNavigationBarItem(
-                icon: Icon(Icons.agriculture_rounded),
-                label: 'Trator',
+                icon: Icon(Icons.person),
+                label: 'Meus Livros',
                 ),
             ],
           ),

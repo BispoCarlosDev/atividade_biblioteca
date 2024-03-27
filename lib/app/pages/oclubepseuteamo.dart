@@ -20,7 +20,7 @@ class Oclubepseuteamo extends StatelessWidget{
               child: Column(
                 children: [
                 Image.asset(
-                  '../assets/oclubepseuteamo.jpg'
+                  'assets/oclubepseuteamo.jpg'
                 ),
                 SizedBox(height: 5.0),
                 Text('Já se passaram sete anos desde que o marido de Holly Kennedy morreu ― e seis desde que ela leu a última carta enviada por ele, pedindo a ela que tenha coragem de criar um novo caminho para si.', 

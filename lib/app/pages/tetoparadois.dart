@@ -20,7 +20,7 @@ class Tetoparadois extends StatelessWidget{
               child: Column(
                 children: [
                 Image.asset(
-                  '../assets/tetoparadois.jpg'
+                  'assets/tetoparadois.jpg'
                 ),
                 SizedBox(height: 5.0),
                 Text('Sem nunca terem se encontrado pessoalmente, Leon e Tiffy fecham um contrato de seis meses e passam a resolver as trivialidades do dia a dia por Post-its espalhados pela casa. Mas será que essa solução aparentemente perfeita pode resistir a um ex-namorado obsessivo, uma namorada ciumenta, um irmão encrencado, dois empregos exigentes e alguns amigos superprotetores?', 

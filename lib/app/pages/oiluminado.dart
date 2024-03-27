@@ -20,7 +20,7 @@ class Oiluminado extends StatelessWidget{
               child: Column(
                 children: [
                 Image.asset(
-                  '../assets/oiluminado.jpg'
+                  'assets/oiluminado.jpg'
                 ),
                 SizedBox(height: 5.0),
                 Text('“O lugar perfeito para recomeçar”, é o que pensa Jack Torrance ao ser contratado como zelador para o inverno. Hora de deixar para trás o alcoolismo, os acessos de fúria, os repetidos fracassos. Isolado pela neve com a esposa e o filho, tudo o que Jack deseja é um pouco de paz para se dedicar à escrita. Mas, conforme o inverno se aprofunda, o local paradisíaco começa a parecer cada vez mais remoto... e mais sinistro. Forças malignas habitam o Overlook, e tentam se apoderar de Danny Torrance, um garotinho com grandes poderes sobrenaturais.', 
